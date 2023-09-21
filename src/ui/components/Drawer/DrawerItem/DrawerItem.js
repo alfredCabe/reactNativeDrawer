@@ -47,7 +47,7 @@ const DrawerItem = ({ content, label, leftIcon, rightIcon, onPress }) => {
   return (
     <DrawerItemWrapper>
       <DrawerItemContainer label={labelText} padding={isStringContent} onPress={onPress}>
-        {leftIcon && <DrawerItemLeftIcon color={colors.white} size={22} name={leftIcon} />}
+        {leftIcon && <DrawerItemLeftIcon color={colors.darkGrey} size={22} name={leftIcon} />}
 
         {isStringContent ? (
           <DrawerItemText numberOfLines={1}>{content}</DrawerItemText>
@@ -55,7 +55,7 @@ const DrawerItem = ({ content, label, leftIcon, rightIcon, onPress }) => {
           <DrawerItemContent>{content}</DrawerItemContent>
         )}
 
-        {rightIcon && <DrawerItemRightIcon color={colors.white} size={22} name={rightIcon} />}
+        {rightIcon && <DrawerItemRightIcon color={colors.darkGrey} size={22} name={rightIcon} />}
       </DrawerItemContainer>
     </DrawerItemWrapper>
   );

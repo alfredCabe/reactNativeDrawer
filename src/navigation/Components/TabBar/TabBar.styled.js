@@ -5,7 +5,7 @@ import { colors } from '@/ui/theme';
 
 const TabBarWrapper = styled.View`
   flex-direction: row;
-  background-color: ${colors.base};
+  background-color: ${colors.baseLightest};
   padding-top: ${rems(0.5)};
   padding-bottom: ${rems(0.5)};
 `;

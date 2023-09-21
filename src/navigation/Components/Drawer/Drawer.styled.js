@@ -120,7 +120,7 @@ const RightPanel = styled(Animated.View)`
   width: 100%;
   height: 100%;
   flex-direction: column;
-  background-color: ${colors.base};
+  background-color: ${colors.baseLightest};
 `;
 
 RightPanel.displayName = 'RightPanel';
@@ -139,7 +139,7 @@ const RightPanelHeader = styled.View`
 
 const RightPanelHeaderText = styled.Text`
   font-size: 14px;
-  color: ${colors.white};
+  color: ${colors.darkGrey};
   font-family: 'Montserrat-Medium';
 `;
 

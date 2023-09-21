@@ -17,7 +17,7 @@ const getScreens = () => {
           title: 'perfil de usuario',
           routeName: screen.PROFILE_MY_PROFILE_SCREEN,
           parentName: screen.PROFILE_SCREEN_STACK,
-          icon: 'alert-triangle',
+          icon: 'person',
           permissions: [],
         },
       ],
@@ -25,7 +25,7 @@ const getScreens = () => {
     {
       id: 2,
       title: 'Home',
-      icon: 'alert-triangle',
+      icon: 'home',
       permissions: [],
       screens: [
         {
@@ -34,7 +34,7 @@ const getScreens = () => {
           title: 'Ir al home',
           routeName: screen.HOME_SCREEN,
           parentName: screen.HOME_SCREEN_STACK,
-          icon: 'alert-triangle',
+          icon: 'home',
           permissions: [],
         },
       ],

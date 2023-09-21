@@ -13,7 +13,7 @@ import DrawerNavigator from './Navigator/DrawerNavigation';
 
 const StyledSafeAreaView = styled.SafeAreaView`
   flex: 1;
-  background-color: ${colors.base};
+  background-color: ${colors.white};
 `;
 
 const RootStack = createStackNavigator();
@@ -40,7 +40,7 @@ const Navigation = () => {
           isReadyRef.current = true;
         }}
       >
-        <StatusBar barStyle="light-content" backgroundColor={colors.base} />
+        <StatusBar barStyle="default" backgroundColor={colors.base} />
         <RootStack.Navigator
           screenOptions={{
             headerShown: false,

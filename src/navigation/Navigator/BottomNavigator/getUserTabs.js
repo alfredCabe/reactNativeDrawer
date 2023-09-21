@@ -6,7 +6,7 @@ const getScreens = () => {
       label: 'home',
       key: screens.HOME_SCREEN_STACK,
       name: screens.HOME_SCREEN_STACK,
-      iconName: 'activity-outline',
+      iconName: 'home',
     },
     {
       label: 'perfil',

@@ -22,7 +22,7 @@ DrawerItemContent.displayName = 'DrawerItemContent';
 
 const DrawerItemText = styled.Text`
   font-size: 14px;
-  color: ${colors.white};
+  color: ${colors.darkGrey};
   font-family: 'Montserrat-Bold';
 `;
 

@@ -105,14 +105,14 @@ const Drawer = ({ drawerItems, navigation }) => {
                 setDisplayRightPanel(!displayRightPanel);
               }}
             >
-              <RightPanelHeaderIcon color={colors.white} size={24} name="arrow-back" />
+              <RightPanelHeaderIcon color={colors.darkGrey} size={24} name="arrow-back" />
               <RightPanelHeaderText>Atras</RightPanelHeaderText>
             </Touchable>
 
             <RightPanelTitle>
               <RightPanelHeaderIcon
                 size={24}
-                color={colors.white}
+                color={colors.darkGrey}
                 name={drawerItems[itemSelected].icon}
               />
               <RightPanelHeaderText>{drawerItems[itemSelected].title}</RightPanelHeaderText>

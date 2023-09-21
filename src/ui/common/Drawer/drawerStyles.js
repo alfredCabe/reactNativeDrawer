@@ -3,7 +3,7 @@ import { colors } from '@/ui/theme';
 const drawerStyles = {
   drawerStyle: {
     width: '80%',
-    backgroundColor: colors.base,
+    backgroundColor: colors.baseLightest,
   },
   overlayColor: 'transparent',
   drawerContentOptions: {
